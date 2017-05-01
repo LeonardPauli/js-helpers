@@ -1,0 +1,17 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "browsers": ["last 2 versions"]
+      },
+      "modules": false
+    }]
+  ],
+  "plugins": [],
+  "comments": false,
+  "env": {
+    "test": {
+      "plugins": [ "istanbul" ]
+    }
+  }
+}
